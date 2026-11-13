@@ -1,0 +1,28 @@
+{
+  "repository": "https://github.com/OFA-Sys/Chinese-CLIP",
+  "commit": "31863c707501bf1605d36842f43deb78793dbc5d",
+  "license": "MIT",
+  "retrieved": "2026-11-11",
+  "files": [
+    {
+      "path": "MIT-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/OFA-Sys/Chinese-CLIP/31863c707501bf1605d36842f43deb78793dbc5d/MIT-LICENSE.txt",
+      "sha256": "aaaac89467b2ed90ff9dedb180c43a9007b96cab2396ae5991568fc1940a49b6"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/OFA-Sys/Chinese-CLIP/31863c707501bf1605d36842f43deb78793dbc5d/README.md",
+      "sha256": "235164fdbdc4c02662204a71bba8e53d43b82ff4528be88c3fc10c39bbd5b0fb"
+    },
+    {
+      "path": "cn_clip/clip/model.py",
+      "url": "https://raw.githubusercontent.com/OFA-Sys/Chinese-CLIP/31863c707501bf1605d36842f43deb78793dbc5d/cn_clip/clip/model.py",
+      "sha256": "9887ae2feda606a920bf2d41fa39cb9c3209bc627761f21524f9a6dc0d995e5e"
+    },
+    {
+      "path": "cn_clip/clip/utils.py",
+      "url": "https://raw.githubusercontent.com/OFA-Sys/Chinese-CLIP/31863c707501bf1605d36842f43deb78793dbc5d/cn_clip/clip/utils.py",
+      "sha256": "a14ba360b0be9f364c5135653ae079429dcf8c6fb87d522deb74aa3ea346b959"
+    }
+  ]
+}

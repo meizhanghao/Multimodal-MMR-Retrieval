@@ -1,0 +1,6 @@
+{
+  "query": "医院设备采购",
+  "top_k": 3,
+  "candidate_k": 6,
+  "lambda_mult": 0.55
+}

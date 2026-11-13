@@ -1,0 +1,139 @@
+{
+  "encoder": "fixture-4d-v1",
+  "synthetic": true,
+  "description": "Ideal upstream features, not encoded from the accompanying geometric images.",
+  "ids": [
+    "hospital-1",
+    "hospital-2",
+    "hospital-3",
+    "public-1",
+    "port-1",
+    "other-1"
+  ],
+  "text_features": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0.99,
+      0.05,
+      0,
+      0
+    ],
+    [
+      0.8,
+      0.6,
+      0,
+      0
+    ],
+    [
+      0,
+      0.2,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0.1,
+      1
+    ],
+    [
+      -1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "image_features": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0.99,
+      0.05,
+      0,
+      0
+    ],
+    [
+      0.8,
+      0.6,
+      0,
+      0
+    ],
+    [
+      0,
+      0.2,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0.1,
+      1
+    ],
+    [
+      -1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "queries": {
+    "text:医院设备采购": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "text:公共服务": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "image:hospital-1": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "image:hospital-2": [
+      0.99,
+      0.05,
+      0,
+      0
+    ],
+    "image:hospital-3": [
+      0.8,
+      0.6,
+      0,
+      0
+    ],
+    "image:public-1": [
+      0,
+      0.2,
+      1,
+      0
+    ],
+    "image:port-1": [
+      0,
+      0,
+      0.1,
+      1
+    ],
+    "image:other-1": [
+      -1,
+      0,
+      0,
+      0
+    ]
+  }
+}

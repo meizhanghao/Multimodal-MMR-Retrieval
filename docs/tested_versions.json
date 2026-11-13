@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "libraries": {
+    "numpy": "2.3.5",
+    "pillow": "12.3.0",
+    "faiss-cpu": "1.16.0",
+    "torch": "2.15.0+cpu",
+    "fastapi": "0.162.4",
+    "uvicorn": "0.54.0",
+    "httpx": "0.28.1",
+    "pytest": "9.2.0"
+  }
+}

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mmclip-reproduction"
+version = "0.1.0"
+description = "Chinese-CLIP feature projection, FAISS and incremental MMR reproduction"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["numpy>=1.26,<3", "pillow>=10,<13"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+faiss = ["faiss-cpu==1.16.0"]
+api = ["fastapi==0.162.4", "uvicorn>=0.31,<1", "httpx>=0.28,<1"]
+train = ["torch>=2.5,<3"]
+models = ["cn-clip>=1.5,<2", "torch>=2.5,<3", "torchvision>=0.20,<1"]
+
+[tool.setuptools.packages.find]
+include = ["mmclip*"]
+exclude = ["upstream*", "tests*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = ["integration: installed local library/protocol integration, no paid model request"]

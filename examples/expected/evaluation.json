@@ -1,0 +1,15 @@
+{
+  "query_count": 6,
+  "k": 3,
+  "repeats": 5,
+  "hnsw_m": 16,
+  "ef_construction": 200,
+  "ef_search": 64,
+  "ann_recall_at_k": 0.9444444444444444,
+  "hnsw_p50_ms": 0.012249991414137185,
+  "hnsw_p95_ms": 0.014449993614107367,
+  "flat_serialized_bytes": 141,
+  "hnsw_serialized_bytes": 1186,
+  "raw_vector_bytes": 96,
+  "note": "ANN neighbor overlap, not semantic recall; serialized bytes exclude NumPy copy, metadata and peak RAM"
+}
